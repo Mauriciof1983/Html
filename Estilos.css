@@ -1,0 +1,48 @@
+body{
+    background-color: blueviolet;   /* Color al fondo */
+}
+
+h2{
+    color: darkblue;             /* Color a la letra */
+    font-size: 2em;                 /* Tamaño a la letra */
+}
+
+#Principal{
+    font-size: 3em;
+    border: 2px solid black;        /* Borde, siempre lleva el grosor, el tipo y el color */
+    width: 65vw;                        /* vw el porcentaje de la pantalla */
+    margin: auto;                       /* Es el margen */
+    padding: 3em;                       /* Es el despegue de los margenes */
+
+
+
+}
+
+li{
+    font-size: 1.5em;
+    color: aliceblue;
+}
+
+.Logo{
+    width: 300px;               /* Ancho */
+}
+
+footer{
+    color: aliceblue;
+}
+
+.cards{
+    border: 3px solid black;
+    width: fit-content;                 /* Se adapta al margen de la imagen */
+    padding: 0.5em 0.5em 0.5em 0.5em;           /* Se separa de los 4 margenes. empieza de arriba, luego derecha, despues  abajo y termina en la izquierda */
+    border-radius: 9%;
+
+}
+
+.lista:hover{                           /* hover es cuando paso el mouse por arriba */
+    background-color: aqua;
+    transition: 1s;                     /* es lo dura el efecto */
+
+}
+
+
