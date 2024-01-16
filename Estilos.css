@@ -8,11 +8,14 @@ h2{
 }
 
 #Principal{
-    font-size: 3em;
-    border: 2px solid black;        /* Borde, siempre lleva el grosor, el tipo y el color */
+    font-size: 2.5em;
+    /*border: 2px solid black;         Borde, siempre lleva el grosor, el tipo y el color */
     width: 65vw;                        /* vw el porcentaje de la pantalla */
     margin: auto;                       /* Es el margen */
     padding: 3em;                       /* Es el despegue de los margenes */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 
 
@@ -25,6 +28,7 @@ li{
 
 .Logo{
     width: 300px;               /* Ancho */
+    height: 500px;
 }
 
 footer{
@@ -35,8 +39,25 @@ footer{
     border: 3px solid black;
     width: fit-content;                 /* Se adapta al margen de la imagen */
     padding: 0.5em 0.5em 0.5em 0.5em;           /* Se separa de los 4 margenes. empieza de arriba, luego derecha, despues  abajo y termina en la izquierda */
-    border-radius: 9%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;             
+    gap: 2em;                           /* Separacion de el subtitulo y la imagen */
+    align-items: center;                /* Centrar elementos */
+}
 
+#cars-container{
+
+    background-color: brown;
+    width: 85%;
+    margin: auto;
+    margin-top: 15px;                   /* Es el alto de despegue de arriba de la imagen */
+    border: 3px solid rgb(160, 146, 146);
+    border-radius: 15px;
+    padding: 2em;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .lista:hover{                           /* hover es cuando paso el mouse por arriba */
